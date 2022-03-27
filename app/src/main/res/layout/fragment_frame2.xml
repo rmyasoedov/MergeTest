@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="10dp"
     android:layout_height="match_parent"
-    tools:context=".frame2.Frame2Fragment">
+    tools:context=".frame1.Frame1Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/a1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:padding="5dp"
+        android:text="0"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/labelZnak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        app:layout_constraintTop_toBottomOf="@+id/a1"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/a2"
+        app:layout_constraintTop_toBottomOf="@+id/labelZnak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="36sp"
+        android:text="0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/buttonDiff"
+        app:layout_constraintTop_toBottomOf="@+id/a2"
+        android:layout_marginTop="20dp"
+        android:textSize="35sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выполнить"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/resultField"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="36sp"
+        android:hint="0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
