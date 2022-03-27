@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import com.example.mergetest.MyConst
 import com.example.mergetest.MyFun
 import com.example.mergetest.R
 
@@ -28,6 +29,8 @@ class Frame2Fragment : Fragment() {
         a2 = root.findViewById(R.id.a2)
         buttonDiff = root.findViewById(R.id.buttonDiff)
         resultField = root.findViewById(R.id.resultField)
+
+        buttonDiff.text = MyConst.LABEL_BUTTON
 
         buttonDiff.setOnClickListener {
             val sum = MyFun.Diff(a1.text.toString().toDouble(),a2.text.toString().toDouble())
