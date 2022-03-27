@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/MergeTest/app/src/main/res/drawable/border.xml" value="0.2520833333333333" />
         <entry key="..\:/Android/MergeTest/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android/MergeTest/app/src/main/res/layout/fragment_frame1.xml" value="0.33" />
+        <entry key="..\:/Android/MergeTest/app/src/main/res/layout/fragment_frame2.xml" value="0.2359375" />
       </map>
     </option>
   </component>
