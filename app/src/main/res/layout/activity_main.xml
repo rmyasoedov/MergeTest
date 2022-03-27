@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_height="wrap_content"
-            android:text="Frame #1"/>
+            android:text="Сумма"/>
 
         <Button
             android:id="@+id/buttonFrame2"
