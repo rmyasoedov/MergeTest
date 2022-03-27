@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:padding="5dp"
-        android:text="0"
+        android:hint="0"
+        android:inputType="numberDecimal"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="10dp" />
@@ -35,8 +36,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
+        android:hint="0"
+        android:inputType="numberDecimal"
         android:textSize="36sp"
-        android:text="0"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="10dp" />
 
