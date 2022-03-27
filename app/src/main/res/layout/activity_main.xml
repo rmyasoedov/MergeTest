@@ -27,7 +27,7 @@
             app:layout_constraintStart_toEndOf="@+id/buttonFrame1"
             android:layout_marginLeft="10dp"
             android:layout_height="wrap_content"
-            android:text="Frame #2"/>
+            android:text="Разность"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
